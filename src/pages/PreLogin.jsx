@@ -272,7 +272,7 @@ export default function PreLogin() {
       if (node && node.__detachRouter) {
         try {
           node.__detachRouter();
-        } catch {}
+        } catch { }
         delete node.__detachRouter;
       }
     };

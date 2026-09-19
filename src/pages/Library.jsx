@@ -29,7 +29,7 @@ export default function Library() {
   useEffect(() => {
     API.get("/auth/me")
       .then(({ data }) => setMe(data))
-      .catch(() => {});
+      .catch(() => { });
 
     API.get("/pdfs")
       .then(({ data }) => {
