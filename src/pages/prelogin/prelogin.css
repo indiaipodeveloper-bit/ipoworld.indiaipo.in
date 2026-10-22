@@ -1,6 +1,7 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+
 /* Decorative elements */
 .bg-decoration {
   position: fixed;
@@ -12,6 +13,7 @@ body {
   z-index: 0;
   overflow: hidden;
 }
+
 .subtn {
   padding: 10px;
   display: flex;
@@ -71,10 +73,12 @@ body {
 }
 
 @keyframes float {
+
   0%,
   100% {
     transform: translateY(0px) rotate(0deg);
   }
+
   50% {
     transform: translateY(-20px) rotate(180deg);
   }
@@ -296,14 +300,17 @@ body {
   background: #4caf50;
   height: 80%;
 }
+
 .bar.blue {
   background: #1976d2;
   height: 65%;
 }
+
 .bar.orange {
   background: #ff9800;
   height: 95%;
 }
+
 .bar.red {
   background: #e53935;
   height: 75%;
@@ -319,6 +326,7 @@ body {
 }
 
 @keyframes bounce {
+
   0%,
   20%,
   50%,
@@ -326,9 +334,11 @@ body {
   100% {
     transform: translateY(0);
   }
+
   40% {
     transform: translateY(-10px);
   }
+
   60% {
     transform: translateY(-5px);
   }
@@ -477,12 +487,10 @@ a.register-button_dfg::after {
   height: 100%;
   pointer-events: none;
 
-  background: linear-gradient(
-    90deg,
-    transparent 0%,
-    rgba(255, 255, 255, 0.35) 50%,
-    transparent 100%
-  );
+  background: linear-gradient(90deg,
+      transparent 0%,
+      rgba(255, 255, 255, 0.35) 50%,
+      transparent 100%);
   transform: skewX(-20deg);
   animation: ipoBtnShimmer 2s infinite;
 }
@@ -496,6 +504,7 @@ a.register-button_dfg:hover::after {
   0% {
     left: -130%;
   }
+
   100% {
     left: 130%;
   }
@@ -507,6 +516,7 @@ a.register-button_dfg:hover {
   transform: translateY(-2px);
   box-shadow: 0 12px 32px rgba(0, 0, 0, 0.3);
 }
+
 /* Mobile Responsive */
 @media (max-width: 768px) {
   .mobile-menu-toggle {
@@ -761,6 +771,7 @@ a.register-button_dfg:hover {
     grid-template-columns: 1fr;
     gap: 20px;
   }
+
   .video-placeholder {
     height: 196px !important;
   }
@@ -795,10 +806,12 @@ a.register-button_dfg:hover {
 }
 
 @keyframes float {
+
   0%,
   100% {
     transform: translateY(0px) rotate(0deg);
   }
+
   50% {
     transform: translateY(-20px) rotate(180deg);
   }
@@ -809,11 +822,13 @@ a.register-button_dfg:hover {
   left: 10%;
   animation-delay: 0s;
 }
+
 .floating-element:nth-child(2) {
   top: 20%;
   right: 10%;
   animation-delay: 2s;
 }
+
 .floating-element:nth-child(3) {
   bottom: 20%;
   left: 15%;
@@ -837,11 +852,9 @@ a.register-button_dfg:hover {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(
-    45deg,
-    rgba(255, 255, 255, 0.1) 0%,
-    transparent 50%
-  );
+  background: linear-gradient(45deg,
+      rgba(255, 255, 255, 0.1) 0%,
+      transparent 50%);
   pointer-events: none;
 }
 
@@ -1126,6 +1139,7 @@ a.register-button_dfg:hover {
     opacity: 0;
     transform: translateY(30px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -1177,9 +1191,11 @@ a.register-button_dfg:hover {
   color: #2c3e50;
   font-weight: 500;
 }
+
 .registration-section {
   padding: 10px;
 }
+
 /* Mobile Responsive */
 @media (max-width: 768px) {
   .benefit-item {
@@ -1197,13 +1213,19 @@ a.register-button_dfg:hover {
   }
 
   .form-input {
-    width: 100%; /* Full width for responsiveness */
-    max-width: 500px; /* Optional: prevents it from being too wide */
-    padding: 12px 16px; /* Comfortable padding */
-    font-size: 16px; /* Readable text size */
+    width: 100%;
+    /* Full width for responsiveness */
+    max-width: 500px;
+    /* Optional: prevents it from being too wide */
+    padding: 12px 16px;
+    /* Comfortable padding */
+    font-size: 16px;
+    /* Readable text size */
     border: 1px solid #ccc;
-    border-radius: 8px; /* Rounded corners */
-    box-sizing: border-box; /* Keeps padding inside width */
+    border-radius: 8px;
+    /* Rounded corners */
+    box-sizing: border-box;
+    /* Keeps padding inside width */
     outline: none;
     transition: border-color 0.3s ease;
   }
@@ -1329,12 +1351,15 @@ a.register-button_dfg:hover {
 .submit-btn:active {
   transform: translateY(0);
 }
+
 @media (max-width: 480px) {
   .form-input {
-    font-size: 14px; /* Slightly smaller on small screens */
+    font-size: 14px;
+    /* Slightly smaller on small screens */
     padding: 10px 14px;
   }
 }
+
 /* Mobile Responsive */
 @media (max-width: 768px) {
   .course-info-grid {
@@ -1365,7 +1390,8 @@ a.register-button_dfg:hover {
   .form-input {
     width: 100%;
     padding: 12px 16px;
-    font-size: 16px; /* Prevents zoom on iOS */
+    font-size: 16px;
+    /* Prevents zoom on iOS */
   }
 
   .submit-btn {
@@ -1378,6 +1404,7 @@ a.register-button_dfg:hover {
     margin-top: 30px !important;
     margin-left: 0px !important;
   }
+
   .disp_flx {
     display: block !important;
   }
@@ -1414,6 +1441,7 @@ a.register-button_dfg:hover {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
@@ -1435,9 +1463,11 @@ a.register-button_dfg:hover {
   margin-top: 30px;
   margin-left: 30px;
   position: sticky;
-  top: 100px; /* adjust so it doesn’t overlap header/navbar */
+  top: 100px;
+  /* adjust so it doesn’t overlap header/navbar */
   height: fit-content;
 }
+
 .disp_flx {
   display: flex;
 }
@@ -1679,13 +1709,14 @@ a.register-button_dfg:hover {
     opacity: 0;
     transform: translateY(20px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
   }
 }
 
-.course-page-wrapper > * {
+.course-page-wrapper>* {
   animation: fadeIn 0.6s ease-out;
 }
 
@@ -1712,6 +1743,7 @@ a.register-button_dfg:hover {
   padding: 30px;
   overflow: hidden;
 }
+
 .imagwe {
   width: 100%;
 }
@@ -1810,12 +1842,15 @@ a.register-button_dfg:hover {
 .apple_dfg {
   background: linear-gradient(135deg, #ff6b6b, #ff5252);
 }
+
 .carrot_dfg {
   background: linear-gradient(135deg, #ff9800, #f57c00);
 }
+
 .broccoli_dfg {
   background: linear-gradient(135deg, #4caf50, #388e3c);
 }
+
 .nuts_dfg {
   background: linear-gradient(135deg, #8d6e63, #5d4037);
 }
@@ -1827,21 +1862,21 @@ a.register-button_dfg:hover {
   background: green;
   color: white;
   padding: 8px 20px;
-  clip-path: polygon(
-    0 0,
-    calc(100% - 20px) 0,
-    100% 50%,
-    calc(100% - 20px) 100%,
-    0 100%
-  );
+  clip-path: polygon(0 0,
+      calc(100% - 20px) 0,
+      100% 50%,
+      calc(100% - 20px) 100%,
+      0 100%);
   font-weight: bold;
   font-size: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  margin-top: -10px;
 }
 
 .content-section_dfg {
   color: white;
 }
+
 .content-section_dfg h1 {
   font-size: 28px;
 }
@@ -1966,9 +2001,11 @@ a.register-button_dfg:hover {
   border: 0;
   cursor: pointer;
 }
+
 #yt-overlay.show {
   display: block;
 }
+
 /* .register-button_dfg:hover {
   transform: translateY(-2px);
   box-shadow: 0 12px 32px rgba(0, 0, 0, 0.3);
@@ -2005,13 +2042,16 @@ a.register-button_dfg:hover {
     padding: 25px 20px;
     max-width: 100%;
   }
+
   .content-section_dfg {
     text-align: center;
   }
+
   .stats-section_dfg {
     display: flex;
     justify-content: center;
   }
+
   .certificate-section_dfg {
     padding: 25px 20px;
   }
