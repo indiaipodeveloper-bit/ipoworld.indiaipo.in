@@ -616,6 +616,21 @@ a.register-button_dfg:hover {
     opacity: 1;
   }
 }
+.w-full {
+  width: 100%;
+}
+.h-auto {
+  height: auto;
+}
+.aspect-video {
+  aspect-ratio: 16 / 9;
+}
+.rounded-sm {
+  border-radius: 4px;
+}
+.object-cover {
+  object-fit: cover;
+}
 
 .video-section {
   display: block;
