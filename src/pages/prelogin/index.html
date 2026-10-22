@@ -91,19 +91,25 @@
 
         <div class="disp_flx">
           <div class="video-section">
-            <div class="video-container">
-              <div class="video-placeholder">
-                <!-- YouTube API will inject its own iframe here -->
-                <div id="yt-player" class="yt-embed"></div>
-
-                <!-- Overlay that hides suggestions when paused/ended -->
-                <button
-                  id="yt-overlay"
-                  aria-label="Resume video"
-                  hidden
-                ></button>
-              </div>
-            </div>
+            <video
+              src="assets/ipowardmagazine.webm"
+              autoplay
+              muted
+              loop
+              controls
+              playsinline
+              class="w-full h-auto aspect-video rounded-sm object-cover"
+              className="w-full h-auto aspect-video rounded-sm object-cover"
+              controls-visible-on-load="true"
+              play-bar-control="true"
+              play-pause-control="true"
+              volume-control="true"
+              fullscreen-control="true"
+              style="width: 100%; height: auto; aspect-ratio: 16/9; border-radius: 4px; object-fit: cover;"
+            >
+              <source src="assets/ipowardmagazine.webm" type="video/webm" />
+              Your browser does not support the video tag.
+            </video>
             <div class="course-info-grid">
               <div class="info-card">
                 <div class="info-icon">
