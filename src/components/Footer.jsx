@@ -12,7 +12,11 @@ export default function Footer() {
     <footer className="bg-[#f8f8f8] text-gray-700 border-t mt-10">
       <div className="max-w-6xl mx-auto px-3 py-10 grid md:grid-cols-2 gap-8 text-sm">
         <div>
-          <img src={logo} alt="India IPO" className="h-12 mb-3" />
+          <img
+            src="https://api.indiaipo.in/api/logo"
+            alt="India IPO"
+            className="h-12 mb-3"
+          />
 
           <p className="mb-4 text-justify">
             IPO World Magazine is your trusted source for everything about
